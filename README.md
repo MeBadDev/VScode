@@ -1,5 +1,5 @@
 ## VScode: Real-time Coding Battles for Glory!
-
+(WORK IN PROGRESS - NOT READY YET)
 **Welcome to VScode, the competitive coding arena where speed, performance, and readability collide!** ⚡
 Not to be confused with [Visual Studio Code](https://code.visualstudio.com), VScode is an arena where players compete to see who can write better codes.
 Here, programmers of all skill levels face off in real-time challenges, battling to write the most **performant, readable, and fastest code possible.**
