@@ -42,5 +42,5 @@ monaco.editor.create(EDITOR_1, {
   stickyScroll: { enabled: true },
 })
 monaco.editor.create(EDITOR_2, {
-  language: "javascript"
+  language: "typescript"
 })
