@@ -11,7 +11,19 @@ monaco.editor.defineTheme("ctp-mocha", {
     {
       token: "comment",
       foreground: "#6c7086"
-    }
+    },
+    {
+      token: "string",
+      foreground: "#a6e3a1"
+    },
+    {
+      token: "number",
+      foreground: "#fab387"
+    },
+    {
+      token: "keyword",
+      foreground: "#cba6f7"
+    },
   ] as Array<any>,
   colors: {
     "editor.background": "#1e1e2e",
@@ -21,10 +33,13 @@ monaco.editor.defineTheme("ctp-mocha", {
 
   }
 } as monaco.editor.IStandaloneThemeData)
-monaco.editor.setTheme("ctp-mocha")
 monaco.editor.create(EDITOR_1, {
   language: "javascript",
-  value: "//some shitty codes \n export default function helloWorld(){\n\tconsole.log('Hello World!')\n}"
+  value: "//some shitty codes \n123\n export default function helloWorld(){\n\tconsole.log('Hello World!')\n}",
+  theme: "ctp-mocha",
+  roundedSelection: false,
+  smoothScrolling: true,
+  stickyScroll: { enabled: true },
 })
 monaco.editor.create(EDITOR_2, {
   language: "javascript"
